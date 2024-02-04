@@ -1,0 +1,131 @@
+@import 'swiper/css/bundle';
+
+.section-clients-reviews {
+  background-color: var(--light-blue);
+  padding: 36px 0px;
+}
+
+.clients-reviews-tittle {
+  font-size: 28px;
+  letter-spacing: 0.02em;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.list-clients-reviews {
+  margin-bottom: 15px;
+}
+
+.swiper-slide {
+  height: auto;
+}
+
+.clients-reviews-item {
+  background-color: #fff;
+  max-width: 343px;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.container-clients-img {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.clients-img {
+  object-fit: contain;
+}
+
+.clients-subtitle {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.7;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.reviews-time {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.reviews-text {
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: var(--blue-font);
+}
+
+@media screen and (max-width: 374px) {
+  .clients-subtitle {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section-clients-reviews {
+    padding: 36px 0px;
+  }
+
+  .clients-reviews-tittle {
+    font-size: 32px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+  }
+
+  .container-clients-img {
+    margin-bottom: 14px;
+  }
+
+  .clients-img {
+    width: 54px;
+    height: 54px;
+  }
+
+  .clients-subtitle {
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+
+  .reviews-time {
+    font-size: 16px;
+  }
+
+  .reviews-text {
+    font-size: 18px;
+  }
+  
+}
+@media screen and (min-width: 1440px) {
+
+  .section-clients-reviews {
+    padding: 60px 0px;
+  }
+
+  .list-clients-reviews {
+    gap: 24px;
+  }
+
+  .clients-reviews-item {
+    max-width: 424px;
+    padding: 32px;
+  }
+
+  .container-clients-img {
+    margin-bottom: 16px;
+  }
+}
